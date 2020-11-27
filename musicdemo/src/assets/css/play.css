@@ -1,0 +1,156 @@
+.play {
+    left: 0;
+    position: fixed;
+    /* background: #464547; */
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 150;
+    background-color: #000000;
+  }
+  .bgzz{
+    width: 7.5rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    z-index: -1;
+    opacity: 1;
+    transform: scale(1.5);
+    transform-origin: center center;
+    filter: blur(40px);
+
+  }
+  .bgsss{
+    background-color: #000000;
+    z-index: -1;
+    opacity: .5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .play .top {
+    position: relative;
+  }
+  .play .play_top img {
+    position: absolute;
+    width: 96px;
+    height: 137px;
+    left: 38%;
+    margin-left: 25px;
+    z-index: 9;
+  }
+  
+  .play_img_box {
+    margin: 70px auto 0;
+    width: 296px;
+    height: 296px;
+    background: url("../../assets/images/disc-ip6.png");
+    background-size: 296px;
+    overflow: hidden;
+  }
+  .play_img_all {
+    position: relative;
+  }
+  .play_img_box .small_img {
+    margin: 55px auto 0;
+    width: 191px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .play_img_all .play_icon {
+    position: absolute;
+    display: none;
+    left: 37%;
+    top: 34%;
+    margin-left: 25px;
+    margin-top: 25px;
+    height: 50px;
+    width: 50px;
+    background: url("../../assets/images/list_sprite.png") no-repeat;
+    z-index: 99;
+  }
+  .play_img_box .small_img img {
+    width: 191px;
+    height: 191px;
+  }
+  
+  .play_txt {
+    padding: 0 15px 20px;
+    margin-top: 25px;
+  }
+  .play_txt_name {
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #fff;
+  }
+  .singer_name{
+    font-size: 16px;
+    color: #ffffff99;
+  }
+  .play_txt_name .singer {
+    color: hsla(0, 0%, 100%, 0.6);
+  }
+  
+  .play_txt_geci {
+    position: relative;
+    margin-top: 14px;
+    height: 60px;
+    overflow: auto;
+   
+  }
+  
+  .geci_box {
+    height: 120px;
+    text-align: center;
+    width: 100%;
+    transition: 0.5s;
+  
+  }
+  .geci_box p {
+    font-size: 16px;
+    color:  #ffffff99;
+    height: 31px;
+    line-height: 31px;
+    overflow: hidden;
+  }
+  
+  .audio_box {
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .singers{
+    width: 100%;
+    height: 70px;
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    background-color: #46454733;
+    position: relative;
+    z-index: 3;
+  }
+  .singers img{
+    width: 100px;
+    height: 25px;
+    margin-top: 20px;
+    position: relative;
+    z-index: 4;
+  }
+  .play_txt_geci .geci_box .active {
+    color:white ;
+  }

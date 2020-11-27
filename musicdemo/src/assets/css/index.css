@@ -1,0 +1,55 @@
+.index .navTitle{
+    height: 1.68rem;
+    width: 100%;
+    background: #d43c33;
+    color: #fff;
+    line-height: 1.68rem;
+    padding-left: .8rem;
+    box-sizing: border-box;
+}
+#header{
+    width: 7.5rem;
+    height: 2.5rem;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+}
+.main{
+    height: 2.5rem;
+}
+.index .navBar{
+    height: 0.8rem;
+    border-bottom: 1px solid #ccc;
+    line-height: 0.8rem;
+    display: flex;
+    background-color: #fff;
+}
+.navBar a{
+    flex:1;
+    margin: 0 .2rem;
+    text-align: center;
+    color: #333;
+    font-size: 17px;
+}
+.index .active{
+    color: #DD001B;
+    border-bottom: 2px solid #DD001B;
+}
+.index .tubiao{
+    position: absolute;
+    top: .56rem;
+    left: .1rem;
+}
+.index .App{
+    width: 2rem;
+    height: 0.72rem;
+    position: absolute;
+    top: .5rem;
+    left: 5.2rem;
+    background-color: white;
+    text-align: center;
+    line-height: .72rem;
+    border-radius: 1rem;
+    font-size: .32rem;
+    color: #DD001B;
+}

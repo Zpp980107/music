@@ -1,0 +1,170 @@
+
+.list .header{
+    overflow: hidden;
+}
+.list .header .img{
+    height: 279px;
+    width: 562.5px;
+    filter: blur(20px);
+    -webkit-tap-highlight-color: rgba(0,0,0,1);
+}
+.list .header .touImg{
+    width: 2.52rem;
+    z-index: 2;
+    position: relative;
+    top: -5.3rem;
+    left: .4rem;
+}
+.list .header .ico{
+    width: 40px;
+    height: 17px;
+    background-color: rgba(217,48,48,.8);
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+    padding: 0 8px;
+    height: 17px;
+    color: #fff;
+    font-size: 9px;
+    text-align: center;
+    line-height: 17px;
+    z-index: 3;
+    position: absolute;
+    top: .5rem;
+    left: .4rem;
+    box-sizing: border-box;
+}
+.list .header .erji{
+    width: 12px;
+}
+.list .header .tubiao{
+    z-index: 5;
+    position: absolute;
+    top: .4rem;
+    right: 4.64rem;
+    font-size: 12px;
+    color: #ffffff;
+}
+.list .header .text{
+    width: 4rem;
+    height: 0.9rem;
+    position: absolute;
+    top: .4rem;
+    left: 3.4rem;
+    font-size: 17px;
+    color: #fefefe;
+}
+.list .header .creator span{
+    position: absolute;
+    top: 1.8rem;
+    left: 4rem;
+    font-size: 14px;
+    color: #ffffffb3;
+}
+.list .header .creator div{
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 1.7rem;
+    left: 3.4rem;
+}
+.list .header .creator img{
+    width: 0.6rem;
+}
+.list .songlist{
+    position: relative;
+    top: -4.9rem;
+    background-color: #fff;
+}
+.list .title{
+    width: 7.5rem;
+    font-size: 12px;
+    color: #666666;
+    padding-left: 10px;
+    box-sizing: border-box;
+    background-color: #eeeff0;
+}
+.list .list1{
+    height: 8rem;
+}
+.list .list1 li{
+    height: 1rem;
+    margin-bottom: 6px;
+    width: 7.5rem;
+    border-bottom: 1px solid #ddd;
+    padding-left: .3rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.list .list1 :nth-child(-n+3) .order{
+    color: #df3436;
+}
+.list .list1 .listname{
+    height: .5rem;
+    width: 5.5rem;
+    font-size: .34rem;
+    line-height: .5rem;
+    margin-left: 30px;
+    box-sizing: border-box;
+    color: #333333;
+    text-overflow:ellipsis;
+white-space: nowrap;
+overflow: hidden;
+}
+.list .list1 .order{
+    position: absolute;
+    left: 7px;
+    top: 8px;
+    color: #999999;
+}
+.list .list1 i{
+    display: inline-block;
+    position: absolute;
+    left: 15px;
+    top: 30px;
+    width: .24rem;
+    height: .16rem;
+    background: url(../images/jinglingtu.png);
+    background-size: 3.32rem 1.94rem;
+    margin-left: 30px;
+    box-sizing: border-box;
+}
+.list .list1 .singer1{
+    display: inline-block;
+    width: 5.5rem;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 18px;
+}
+.list .list1 .singer{
+    font-size: .24rem;
+    line-height: .36rem;
+    color: #888888;
+    position: relative;
+    top: -13px;
+    left: 45px;
+}
+.list .list1 li .playImg{
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
+.store{
+    width: 6.2rem;
+    height: 0.8rem;
+    color: #fff;
+    margin: 0 auto;
+    background-color: #ff3a3a;
+    border-radius: .4rem;
+    text-align: center;
+    line-height: .8rem;
+    position: fixed;
+    bottom: 0px;
+    left: .65rem;
+}
+.store img{
+    position: relative;
+    top: .1rem;
+}

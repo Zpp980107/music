@@ -1,0 +1,133 @@
+.search .search-input{
+    width: 100%;
+    height: 1.2rem;
+    border-bottom: 1px solid #cccccc;
+    position: relative;
+}
+.search .search-input input{
+    margin-top: .38rem;
+    margin-left: .2rem;
+    border-radius: .6rem;
+    height: .6rem;
+    width: 7rem;
+    border: none;
+    background-color: #ebecec;
+    font-size: 14px;
+    vertical-align: middle;
+    outline: none;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+.search .searchImg{
+    width: .32rem;
+    height: .32rem;
+    background: url(../images/search.svg);
+    background-size: .32rem .32rem;
+    position: absolute;
+    left: 25px;
+    top: 27px;
+}
+.search .delete{
+    width: .32rem;
+    height: .32rem;
+    background: url(../images/delete.svg);
+    background-size: .32rem .32rem;
+    position: absolute;
+    left: 6.7rem;
+    top: 26px;
+}
+.search .hotsearch{
+    display: none;
+    padding: 15px 0px 0px 10px ;
+}
+.search .header{
+    display: none;
+    margin-top: 15px;
+    margin-left: 10px;
+    color: #666666;
+    font-size: 12px;
+}
+.search .a{
+    margin-top: 15px;
+    margin-left: 10px;
+    color: #666666;
+    font-size: 12px;
+    
+}
+.search .hotsList{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+}
+.search .hotsList li .hots{
+    height: 0.64rem;
+    border: 1px solid #cccccc;
+    border-radius: .32rem;
+    font-size: 14px;
+    color: #333333;
+    line-height: .64rem;
+    text-align: center;
+    padding: 0 10px;
+    margin: 10px 8px 8px 0;
+}
+.search .huoqu{
+    display: none;
+}
+.search .qdiv{
+    margin-top: 20px;
+    color: #507daf;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.search .qdiv1{
+    display: none;
+    margin-top: 20px;
+    color: #507daf;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.search .qdiv .span{
+    font-size: 15px;
+}
+.search .list li .searchList{
+    display: block;
+    font-size: 17px;
+    color: #333333;
+}
+.search .list li{
+    height: 1rem;
+    margin-bottom: 6px;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding-left: .2rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.search .list li .playImg{
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
+.search .list .singer1{
+    display: inline-block;
+    width: 5.5rem;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 18px;
+}
+.search .list .singer{
+    font-size: .24rem;
+    line-height: .36rem;
+    color: #888888;
+    position: relative;
+    top: -13px;
+}
+.search .list .singer2{
+    color: #507daf;
+    font-size: .24rem;
+    line-height: .36rem;
+    color: #888888;
+    position: relative;
+    top: -13px;
+}
